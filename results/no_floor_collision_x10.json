@@ -1,0 +1,110 @@
+{
+  "experiment": "no_floor_collision_x10_partial",
+  "checkpoint": "model_450.pt",
+  "device": "cpu",
+  "mjx_impl": "jax",
+  "episodes": [
+    {
+      "seed": 42,
+      "steps": 150,
+      "reward": 1695.9176602363586,
+      "final_distance": 0.03818434476852417,
+      "success": true,
+      "grasped": true,
+      "max_cube_z": 0.28076618909835815
+    },
+    {
+      "seed": 43,
+      "steps": 150,
+      "reward": 1808.8421523571014,
+      "final_distance": 0.021039733663201332,
+      "success": true,
+      "grasped": true,
+      "max_cube_z": 0.39038726687431335
+    },
+    {
+      "seed": 44,
+      "steps": 150,
+      "reward": 1694.0774548053741,
+      "final_distance": 0.035634756088256836,
+      "success": true,
+      "grasped": true,
+      "max_cube_z": 0.34172970056533813
+    },
+    {
+      "seed": 45,
+      "steps": 150,
+      "reward": 1470.194853067398,
+      "final_distance": 0.1008804440498352,
+      "success": false,
+      "grasped": true,
+      "max_cube_z": 0.23347380757331848
+    },
+    {
+      "seed": 46,
+      "steps": 150,
+      "reward": 1781.270679950714,
+      "final_distance": 0.015197742730379105,
+      "success": true,
+      "grasped": true,
+      "max_cube_z": 0.3032660484313965
+    },
+    {
+      "seed": 47,
+      "steps": 150,
+      "reward": 1875.6794023513794,
+      "final_distance": 0.006521548610180616,
+      "success": true,
+      "grasped": true,
+      "max_cube_z": 0.28721684217453003
+    },
+    {
+      "seed": 48,
+      "steps": 150,
+      "reward": 1803.9414665699005,
+      "final_distance": 0.012741687707602978,
+      "success": true,
+      "grasped": true,
+      "max_cube_z": 0.33759090304374695
+    },
+    {
+      "seed": 49,
+      "steps": 150,
+      "reward": 1525.3423194885254,
+      "final_distance": 0.08337277173995972,
+      "success": false,
+      "grasped": true,
+      "max_cube_z": 0.3538495600223541
+    },
+    {
+      "seed": 50,
+      "steps": 150,
+      "reward": 1787.16037940979,
+      "final_distance": 0.025211762636899948,
+      "success": true,
+      "grasped": true,
+      "max_cube_z": 0.39364054799079895
+    },
+    {
+      "seed": 51,
+      "steps": 150,
+      "reward": 1716.125286579132,
+      "final_distance": 0.03664494305849075,
+      "success": true,
+      "grasped": true,
+      "max_cube_z": 0.3147413432598114
+    }
+  ],
+  "successes": 8,
+  "SR": 0.8,
+  "grasp_rate": 1.0,
+  "final_train_mean_reward": null,
+  "training_elapsed_seconds_approx": null,
+  "evaluation_elapsed_seconds": 65.98403859138489,
+  "status": "interrupted_NaN",
+  "checkpoint_iteration": 450,
+  "checkpoint_train_mean_reward": 1500.0816650390625,
+  "last_logged_step": 469,
+  "last_logged_reward": 1510.199462890625,
+  "training_wall_seconds_approx": 2139.575437068939
+}
